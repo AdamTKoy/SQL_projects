@@ -1,3 +1,6 @@
+-- This query is used to re-create our selection-level (just coding logic, no parts) Bill of Material viewer web app
+-- since the web app is unable to retrieve orders older than 6 months (and is occasionally down)
+
 WITH FG as (
   select
     t1.fetr_cd,
